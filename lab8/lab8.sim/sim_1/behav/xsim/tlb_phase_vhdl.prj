@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab8.srcs/sources_1/new/phasegenerator.vhd" \
+"../../../../lab8.srcs/sim_1/new/tlb_phase.vhd" \
+
+# Do not sort compile order
+nosort

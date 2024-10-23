@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov  7 09:08:42 2023
+# Process ID: 13840
+# Current directory: C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/lab6/lab6.runs/synth_1
+# Command line: vivado.exe -log testbench_stimulus_file.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source testbench_stimulus_file.tcl
+# Log file: C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/lab6/lab6.runs/synth_1/testbench_stimulus_file.vds
+# Journal file: C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/lab6/lab6.runs/synth_1\vivado.jou
+# Running On: DESKTOP-G7FJ28L, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 29867 MB
+#-----------------------------------------------------------
+source testbench_stimulus_file.tcl -notrace

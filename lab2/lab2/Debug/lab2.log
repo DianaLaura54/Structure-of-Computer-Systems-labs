@@ -1,0 +1,6 @@
+﻿  lab2.cpp
+C:\Users\user\Desktop\AN 3-1\SEM 1\structure of computer systems\lab2\lab2\lab2.cpp(23,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\user\Desktop\AN 3-1\SEM 1\structure of computer systems\lab2\lab2\lab2.cpp(28,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\Desktop\AN 3-1\SEM 1\structure of computer systems\lab2\lab2\lab2.cpp(85,31): warning C4101: 'c': unreferenced local variable
+C:\Users\user\Desktop\AN 3-1\SEM 1\structure of computer systems\lab2\lab2\lab2.cpp(171,7): warning C4101: 'any': unreferenced local variable
+  lab2.vcxproj -> C:\Users\user\Desktop\AN 3-1\SEM 1\structure of computer systems\lab2\Debug\lab2.exe

@@ -1,0 +1,17 @@
+sv xpm --include "../../../ipstatic/hdl" \
+"C:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+"C:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
+"C:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+
+verilog axis_infrastructure_v1_1_0 --include "../../../ipstatic/hdl" \
+"../../../ipstatic/hdl/axis_infrastructure_v1_1_vl_rfs.v" \
+
+verilog axis_data_fifo_v2_0_8 --include "../../../ipstatic/hdl" \
+"../../../ipstatic/hdl/axis_data_fifo_v2_0_vl_rfs.v" \
+
+verilog xil_defaultlib --include "../../../ipstatic/hdl" \
+"../../../../lab6.gen/sources_1/ip/fifo32x64/sim/fifo32x64.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

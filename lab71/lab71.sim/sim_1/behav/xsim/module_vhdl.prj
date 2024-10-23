@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab71.srcs/sources_1/new/range_adjuster.vhd" \
+"../../../../lab71.srcs/sources_1/new/sliding_window_adder.vhd" \
+"../../../../lab71.srcs/sources_1/new/module.vhd" \
+
+# Do not sort compile order
+nosort

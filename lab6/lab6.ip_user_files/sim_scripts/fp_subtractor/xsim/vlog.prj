@@ -1,0 +1,14 @@
+sv xpm  \
+"C:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+"C:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
+"C:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+
+verilog floating_point_v7_1_14  \
+"../../../ipstatic/hdl/floating_point_v7_1_rfs.v" \
+
+verilog xil_defaultlib  \
+"../../../../lab6.gen/sources_1/ip/fp_subtractor/sim/fp_subtractor.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

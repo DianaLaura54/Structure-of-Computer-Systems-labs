@@ -1,0 +1,7 @@
+Running: xsim.dir/wallacetree_behav/xsimk.exe -simmode gui -wdb wallacetree_behav.wdb -simrunnum 0 -socket 59155
+Design successfully loaded
+Design Loading Memory Usage: 7068 KB (Peak: 7068 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 7500 KB (Peak: 7500 KB)
+Simulation CPU Usage: 0 ms

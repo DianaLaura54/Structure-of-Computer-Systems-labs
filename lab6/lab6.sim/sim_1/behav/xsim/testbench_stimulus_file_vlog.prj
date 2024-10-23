@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../lab6.ip_user_files/ipstatic/hdl" \
+"../../../../lab6.gen/sources_1/ip/fifo32x64/sim/fifo32x64.v" \
+"../../../../lab6.gen/sources_1/ip/fp_subtractor/sim/fp_subtractor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

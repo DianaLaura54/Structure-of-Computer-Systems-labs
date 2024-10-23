@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../laborator3.srcs/sources_1/new/partialfulladder.vhd" \
+"../../../../laborator3.srcs/sources_1/new/carrylookahead.vhd" \
+
+# Do not sort compile order
+nosort

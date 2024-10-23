@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "phasegenerator_behav" "xil_defaultlib.phasegenerator" -log "elaborate.log" 

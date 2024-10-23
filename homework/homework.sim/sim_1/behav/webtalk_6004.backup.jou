@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed Oct 18 21:24:35 2023
+# Process ID: 6004
+# Current directory: C:/Users/user/Desktop/AN 3-1/SEM 1/structure of computer systems/homework/homework.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/user/Desktop/AN 3-1/SEM 1/structure of computer systems/homework/homework.sim/sim_1/behav/xsim.dir/lab1_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/user/Desktop/AN 3-1/SEM 1/structure of computer systems/homework/homework.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/user/Desktop/AN 3-1/SEM 1/structure of computer systems/homework/homework.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/user/Desktop/AN -notrace

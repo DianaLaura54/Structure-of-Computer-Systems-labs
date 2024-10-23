@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tlb_phase_behav" "xil_defaultlib.tlb_phase" -log "elaborate.log" 

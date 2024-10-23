@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Nov  3 18:59:48 2023
+# Process ID: 10004
+# Current directory: C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/homework
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11868 C:\Users\user\Desktop\AN 3\SEM 1\structure of computer systems\homework\homework.xpr
+# Log file: C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/homework/vivado.log
+# Journal file: C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/homework\vivado.jou
+# Running On: DESKTOP-G7FJ28L, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 29867 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/homework/homework.xpr}
+update_compile_order -fileset sources_1

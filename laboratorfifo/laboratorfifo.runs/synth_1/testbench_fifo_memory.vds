@@ -1,0 +1,288 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Nov  5 22:44:54 2023
+# Process ID: 17312
+# Current directory: C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.runs/synth_1
+# Command line: vivado.exe -log testbench_fifo_memory.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source testbench_fifo_memory.tcl
+# Log file: C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.runs/synth_1/testbench_fifo_memory.vds
+# Journal file: C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.runs/synth_1\vivado.jou
+# Running On: DESKTOP-G7FJ28L, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 29867 MB
+#-----------------------------------------------------------
+source testbench_fifo_memory.tcl -notrace
+Command: synth_design -top testbench_fifo_memory -part xc7a12ticsg325-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4912
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'testbench_fifo_memory' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/testbench_fifo_memory.vhd:28]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: extra waveform elements [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/testbench_fifo_memory.vhd:50]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: extra waveform elements [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/testbench_fifo_memory.vhd:51]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: extra waveform elements [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/testbench_fifo_memory.vhd:52]
+INFO: [Synth 8-3491] module 'fifo8x8' declared at 'C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:35' bound to instance 'uut' of component 'fifo8x8' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/testbench_fifo_memory.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'fifo8x8' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:47]
+INFO: [Synth 8-3491] module 'fifo_ctrl' declared at 'C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo_ctrl.vhd:36' bound to instance 'dut' of component 'fifo_ctrl' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'fifo_ctrl' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo_ctrl.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'fifo_ctrl' (0#1) [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo_ctrl.vhd:46]
+INFO: [Synth 8-3491] module 'write_pointer' declared at 'C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/write_pointer.vhd:34' bound to instance 'dut2' of component 'write_pointer' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'write_pointer' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/write_pointer.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'write_pointer' (0#1) [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/write_pointer.vhd:44]
+INFO: [Synth 8-3491] module 'read_pointer' declared at 'C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/read_pointer.vhd:35' bound to instance 'dut3' of component 'read_pointer' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'read_pointer' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/read_pointer.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'read_pointer' (0#1) [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/read_pointer.vhd:43]
+INFO: [Synth 8-3491] module 'decoderr' declared at 'C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:33' bound to instance 'dut4' of component 'decoderr' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'decoderr' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'decoderr' (0#1) [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:40]
+INFO: [Synth 8-3491] module 'mux' declared at 'C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/mux.vhd:24' bound to instance 'dut5' of component 'mux' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/mux.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'mux' (0#1) [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/mux.vhd:29]
+INFO: [Synth 8-3491] module 'tristatebuffer' declared at 'C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/tristatebuffer.vhd:36' bound to instance 'dut6' of component 'tristatebuffer' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'tristatebuffer' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/tristatebuffer.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'tristatebuffer' (0#1) [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/tristatebuffer.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'fifo8x8' (0#1) [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'testbench_fifo_memory' (0#1) [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/testbench_fifo_memory.vhd:28]
+WARNING: [Synth 8-3848] Net wrinc in module/entity fifo8x8 does not have driver. [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:56]
+WARNING: [Synth 8-3848] Net rdinc in module/entity fifo8x8 does not have driver. [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:56]
+WARNING: [Synth 8-7129] Port clk in module fifo_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module fifo_ctrl is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+WARNING: [Synth 8-327] inferring latch for variable 'a_reg' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:46]
+WARNING: [Synth 8-327] inferring latch for variable 'b_reg' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:48]
+WARNING: [Synth 8-327] inferring latch for variable 'c_reg' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:50]
+WARNING: [Synth 8-327] inferring latch for variable 'd_reg' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:52]
+WARNING: [Synth 8-327] inferring latch for variable 'e_reg' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:54]
+WARNING: [Synth 8-327] inferring latch for variable 'f_reg' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:56]
+WARNING: [Synth 8-327] inferring latch for variable 'g_reg' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:58]
+WARNING: [Synth 8-327] inferring latch for variable 'h_reg' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/decoderr.vhd:60]
+WARNING: [Synth 8-327] inferring latch for variable 'reg_reg[7]' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:121]
+WARNING: [Synth 8-327] inferring latch for variable 'reg_reg[6]' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:121]
+WARNING: [Synth 8-327] inferring latch for variable 'reg_reg[5]' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:121]
+WARNING: [Synth 8-327] inferring latch for variable 'reg_reg[4]' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:121]
+WARNING: [Synth 8-327] inferring latch for variable 'reg_reg[2]' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:121]
+WARNING: [Synth 8-327] inferring latch for variable 'reg_reg[1]' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:121]
+WARNING: [Synth 8-327] inferring latch for variable 'reg_reg[0]' [C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.srcs/sources_1/new/fifo8x8.vhd:121]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    3 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
++---Muxes : 
+	   8 Input    1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (uut/dut4/a_reg) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/dut4/b_reg) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/dut4/c_reg) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/dut4/d_reg) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/dut4/e_reg) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/dut4/f_reg) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/dut4/g_reg) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/dut4/h_reg) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[7][7]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[7][6]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[7][5]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[7][4]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[7][3]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[7][2]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[7][1]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[7][0]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[6][7]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[6][6]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[6][5]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[6][4]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[6][3]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[6][2]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[6][1]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[6][0]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[5][7]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[5][6]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[5][5]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[5][4]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[5][3]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[5][2]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[5][1]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[5][0]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[4][7]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[4][6]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[4][5]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[4][4]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[4][3]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[4][2]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[4][1]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[4][0]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[2][7]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[2][6]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[2][5]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[2][4]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[2][3]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[2][2]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[2][1]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[2][0]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[1][7]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[1][6]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[1][5]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[1][4]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[1][3]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[1][2]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[1][1]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[1][0]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[0][7]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[0][6]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[0][5]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[0][4]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[0][3]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[0][2]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[0][1]) is unused and will be removed from module testbench_fifo_memory.
+WARNING: [Synth 8-3332] Sequential element (uut/reg_reg[0][0]) is unused and will be removed from module testbench_fifo_memory.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.793 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 87 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.793 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.793 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1283.793 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1283.793 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: ffe53e4d
+INFO: [Common 17-83] Releasing license: Synthesis
+33 Infos, 87 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1283.793 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/user/Desktop/AN 3/SEM 1/structure of computer systems/laboratorfifo/laboratorfifo.runs/synth_1/testbench_fifo_memory.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file testbench_fifo_memory_utilization_synth.rpt -pb testbench_fifo_memory_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  5 22:45:12 2023...
